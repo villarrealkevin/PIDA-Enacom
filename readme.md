@@ -18,3 +18,18 @@ Se nos solicita un analisis completo de los datos de los 15 archivos CSV
 - Se realizan graficos de los datasets restantes junto con una breve explicacion de los mismos:
 ![Alt text](image.png)
 Como podemos ver en este grafico las conexiones de Banda ancha fija se mantuvieron de forma estable y un poco ascendente desde 2014 hasta 2022, entre estos mismo años tambien podemos ver como fue disminuyendo las conexiones Dial up hasta terminar de forma un poco estable junto con las conexiones de Banda ancha fija
+
+![Alt text](image-1.png)
+Con este grafico podemos ver que tipos de conexiones abundan mas en las distintas provincias de Argentina, en este caso lo vemos para el año 2022 en su cuarto trimestre, podemos notar que la provincia de Chubut tiene mas conexiones Dial up que conexiones de Banda ancha fija, mientras que por ejemplo Santa Fe es lo contrario.
+
+![Alt text](image-2.png)
+Como podemos ver en este grafico se nos marca la cantidad de conexiones para distintos tipos de conexiones en Buenos Aires, podemos ver que el tipo mas dominante para finales de 2022 es el tipo ADSL y tambien podemos ver que se utiliza Wireless y un poco de "otros" tipos de conexiones
+
+![Alt text](image-3.png)
+En este grafico podemos filtrar por provincia y por año y trimestre y ver cual es el porcentaje de uso de cada velocidad de internet, como se puede ver, "+ 30 Mbps" es el rango de velocidades mas utilizado por mucho, luego le sigue "+ 1 Mbps - 6 Mbps" el cual es el segundo mas utilizado por mucho, luego de estos 2 tenemos el resto de rangos de velocidad los cuales son casi inexistentes en comparacion a estos 2, eliminando del grafico a estos 2 entonces podremos ver como es la distribucion de velocidad para el resto de rangos de velocidad de internet
+
+![Alt text](image-4.png)
+En este grafico podemos ver como con el pasar del tiempo los ingresos fueron aumentando hasta pasar de unos casi 5 mil a un poco mas de 70 mil pesos
+
+![Alt text](image-5.png)
+Este grafico nos permite visualizar que provincias poseen mejor acceso a internet en comparacion a las demas
