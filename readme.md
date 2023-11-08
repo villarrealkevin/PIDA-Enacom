@@ -24,3 +24,8 @@ Con este grafico podemos ver que tipos de conexiones abundan mas en las distinta
 
 ![Alt text](image-2.png)
 Como podemos ver en este grafico se nos marca la cantidad de conexiones para distintos tipos de conexiones en Buenos Aires, podemos ver que el tipo mas dominante para finales de 2022 es el tipo ADSL y tambien podemos ver que se utiliza Wireless y un poco de "otros" tipos de conexiones
+
+## Streamlit
+Se utiliza streamlit para poder plasmar algunos de estos graficos de forma mas interactiva a su vez que se realiza un KPI:
+- Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia. La fórmula es la siguiente:
+KPI = ((Nuevoacceso - Accesoactual)/ Accesoactual) * 100
