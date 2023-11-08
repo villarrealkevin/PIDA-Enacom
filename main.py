@@ -25,8 +25,8 @@ for conexion in conexiones:
     ax.plot(
         [f"Año {a}, Trim {t}" for a, t in zip(filtro6["Año"], filtro6["Trimestre"])],
         filtro6[conexion],
-        marker='o',
-        linestyle='-',
+        marker="o",
+        linestyle="-",
         label=conexion
     )
 
@@ -61,22 +61,22 @@ st.pyplot(fig)
 
 st.title("Aumento del Acceso a Internet por cada 100 hogares")
 
-provincias = df11['Provincia'].unique()
+provincias = df11["Provincia"].unique()
 provincia_seleccionada = st.selectbox("Selecciona una provincia", provincias)
 
-df_filtrado = df11[df11['Provincia'] == provincia_seleccionada]
+df_filtrado = df11[df11["Provincia"] == provincia_seleccionada]
 
 trimestre = st.slider("Trimestre", 1, 4, 1)
 trimestres = list(range(1, trimestre + 1))
 
-acceso_base = df_filtrado[df_filtrado['Trimestre'].isin(trimestres)]['Accesos por cada 100 hogares'].values[0]
+acceso_base = df_filtrado[df_filtrado["Trimestre"].isin(trimestres)]["Accesos por cada 100 hogares"].values[0]
 
 aumento = 2.0
 acceso_actual = acceso_base + (trimestre - 1) * (aumento / 100) * acceso_base
 nuevo_acceso = acceso_base + (trimestre * (aumento / 100)) * acceso_base
 
 plt.figure(figsize=(8, 6))
-plt.bar(["Acceso Base", f"Trimestre {trimestre}"], [acceso_base, nuevo_acceso], color=['blue', 'green'])
+plt.bar(["Acceso Base", f"Trimestre {trimestre}"], [acceso_base, nuevo_acceso], color=["blue", "green"])
 plt.xlabel("Categorías")
 plt.ylabel("Acceso por cada 100 hogares")
 plt.title(f"Acceso a Internet en el Trimestre {trimestre} en {provincia_seleccionada}")
