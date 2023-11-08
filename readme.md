@@ -24,12 +24,3 @@ Con este grafico podemos ver que tipos de conexiones abundan mas en las distinta
 
 ![Alt text](image-2.png)
 Como podemos ver en este grafico se nos marca la cantidad de conexiones para distintos tipos de conexiones en Buenos Aires, podemos ver que el tipo mas dominante para finales de 2022 es el tipo ADSL y tambien podemos ver que se utiliza Wireless y un poco de "otros" tipos de conexiones
-
-![Alt text](image-3.png)
-En este grafico podemos filtrar por provincia y por año y trimestre y ver cual es el porcentaje de uso de cada velocidad de internet, como se puede ver, "+ 30 Mbps" es el rango de velocidades mas utilizado por mucho, luego le sigue "+ 1 Mbps - 6 Mbps" el cual es el segundo mas utilizado por mucho, luego de estos 2 tenemos el resto de rangos de velocidad los cuales son casi inexistentes en comparacion a estos 2, eliminando del grafico a estos 2 entonces podremos ver como es la distribucion de velocidad para el resto de rangos de velocidad de internet
-
-![Alt text](image-4.png)
-En este grafico podemos ver como con el pasar del tiempo los ingresos fueron aumentando hasta pasar de unos casi 5 mil a un poco mas de 70 mil pesos
-
-![Alt text](image-5.png)
-Este grafico nos permite visualizar que provincias poseen mejor acceso a internet en comparacion a las demas
